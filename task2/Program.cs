@@ -1,4 +1,6 @@
-﻿int[] a = new int[3];
+﻿// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+
+int[] a = new int[3];
 int[] b = new int[3];
 
 void readPointCoordinates(string pointName, int[] arr)
