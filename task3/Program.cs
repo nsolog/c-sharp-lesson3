@@ -3,10 +3,7 @@
 Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int count = 1;
-
-while (count <= N)
+for(int i = 1; i <= N; i++)
 {
-    Console.Write(Math.Pow(count, 3) + ", ");
-    count++;
+    Console.Write(Math.Pow(i, 3) + ", ");
 }
